@@ -1,0 +1,56 @@
+
+body, button{
+    font-family: $font-stack;
+}
+
+main{
+    margin-top: 70px;
+}
+
+p{
+    line-height: 26px;
+    font-size: 14px;
+    color: $base-color;
+}
+
+a{
+    color: $base-color;
+}
+
+h1{
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.container{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.table tr th{
+    font-weight: 400;
+}
+
+.icon{
+    padding: 0 0 5px 0;
+}
+
+
+.color-primary{
+    color: $primary-color;
+}
+
+.color-secondary{
+    color: $secondary-color;
+}
+
+.color-danger{
+    color: $danger-color;
+}

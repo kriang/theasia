@@ -1,0 +1,22 @@
+@media screen and (max-width: 480px) {
+    header{
+        padding: 5px 0;
+    }
+
+    main{
+        margin-top: 30px !important;
+    }
+
+    .logo{
+        width: 35px;
+        margin-top: 5px;
+    }
+    
+    .hero-banner{
+        height: 250px;
+    }
+
+    .account img{
+        width: 30px;
+    }
+}
