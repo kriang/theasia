@@ -10,7 +10,7 @@ Clone the repo, cd into theasia directory and run
 ```
 yarn install
 ```
-Once the installation process downloads all the dependencies, run 
+Once the process completes, run
 
 ```
 yarn run serve
