@@ -12,7 +12,7 @@ yarn install
 Once the installation process downloads all the dependencies, run 
 
 ```
-yarn run dev-server
+yarn run serve
 ```
 
-Visit the local development url that the dev tool provides after executing the yarn run dev-server command
+Visit http://localhost:4000 to visit the app.
