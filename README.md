@@ -16,4 +16,4 @@ Once the process completes, run
 yarn run serve
 ```
 
-Visit http://localhost:4000 to visit the app.
+Visit http://localhost:4000 to view the app.
