@@ -1,49 +1,23 @@
-header{
+
+@import 'partials/variables';
+@import 'partials/nav';
+
+
+/* Modifiers */
+.header{
     padding: 15px 0;
     position: fixed;
     top: 0;
     width: 100%;
-    background: #fff;
+    background: $white;
     z-index: 100;
     box-shadow: 0 0 30px 0 rgba(1, 121, 255, 0.07), 0 0 30px 0 rgba(0, 0, 0, 0.10);
 }
 
-
-.header-search{
-    margin-top: 6px;
-}
-
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
-    color: #222;
-    background: transparent;
-}
-
-.nav>li>a.account{
-    padding: 5px 10px;
-    text-align: center;
-}
-
-.nav-pills{
-    margin-top: 3px;
-}
-
-.nav>li>a{
-    padding: 10px 20px;
-}
-
-.nav-pills>li>a:hover{
-    background: transparent;
-    color: #4cac87; 
-}
-
-.icon{
-    padding: 0 0 5px 0;
-}
-
-.margin-header{
+.header__margin{
     margin-top: 25px;
 }
 
-.margin-content{
-    margin-bottom: 20px;
+.header--search-spacing{
+    margin-top: 6px;
 }

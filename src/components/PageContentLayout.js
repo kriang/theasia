@@ -9,18 +9,19 @@ const PageContentLayout = (props) => {
             <div className="container">
                 <div className="row">
                     <div className="col-xs-12 col-md-8">
-
+                        {/* Static Content */}
                         <Description />
 
                     </div>
                     <div className="col-xs-12 col-md-4">
-
+                        {/* Booking Widget */}
                         <BookingWidget 
                             values={props.values}  
                             handleAddAdultOne={props.handleAddAdultOne} 
                             handleMinusAdultOne={props.handleMinusAdultOne} 
                             handleAddChildrenOne={props.handleAddChildrenOne} 
                             handleMinusChildrenOne={props.handleMinusChildrenOne} 
+                            handleOptionChange={props.handleOptionChange}
                         />
 
                     </div>

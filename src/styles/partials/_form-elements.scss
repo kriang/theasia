@@ -1,5 +1,7 @@
 @import 'variables';
 
+
+/* Overrides */
 input[type="text"], select{
     box-shadow: none !important;
 }
@@ -8,7 +10,22 @@ input[type="text"]:focus, select.form-control:focus{
     border-color: $primary-color;
 }
 
-.button-primary{
+.form-group input, .form-group select{
+    height: 40px;
+}
+
+label{
+    font-weight: 400;
+}
+
+.btn[disabled]:hover{
+    background: $primary-color;
+}
+
+
+
+/* Modifiers */
+.button--primary{
     color: $base-white;
     background: $primary-color;
     border-radius: 3px !important;
@@ -22,16 +39,22 @@ input[type="text"]:focus, select.form-control:focus{
     }
 }
 
+.form-control[disabled].input--disabled-background{
+    background: $white;
+}
 
-.form-group input, .form-group select, .input-height{
+
+.button--height, .input--height{
     height: 40px;
 }
 
-.form-group input.form-control.border-modifier{
+.input--top-spacing{
+    margin-top: 25px;
+}
+
+/*
+.form-group input.form-control.input--border{
     border-left: 0;
     border-right: 0;
 }
-
-label{
-    font-weight: 400;
-}
+*/
