@@ -149,7 +149,7 @@ class BookingWidget extends React.Component {
                                             </tbody>
                                         </table>
                                         {/* Booking Widget Booking Total Cost */}
-                                        <div className="text-center widget--total"><h4>Total Cost: <span className="color-danger"><strong>{ ((this.props.values.adultPrice * this.props.values.adultQty) + (this.props.values.childrenPrice * this.props.values.childrenQty)).toFixed(2) } </strong>USD</span></h4></div>
+                                        <div className="text-center widget--total"><h4>Total Cost: <span className="color--danger"><strong>{ ((this.props.values.adultPrice * this.props.values.adultQty) + (this.props.values.childrenPrice * this.props.values.childrenQty)).toFixed(2) } </strong>USD</span></h4></div>
                                     </div>
                                 </div>
                             </div>

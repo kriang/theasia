@@ -5,7 +5,7 @@ Technical Assignment for a Frontend Developer Role
 
 ## Running the project
 
-Clone the repo, cd into theasia directory and run
+Clone the repo, cd into 'theasia' directory and run
 
 ```
 yarn install
