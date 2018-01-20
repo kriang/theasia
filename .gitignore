@@ -4,4 +4,3 @@ public/bundle.js.map
 public/styles.css.map
 webpack.config.dev.js
 webpack.config.prod.js
-/server
